@@ -25,9 +25,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SSoT", "SSoT\", "{7FDA781F-
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{419B1AF3-2AB0-4740-8478-B1230325AA16}"
-	ProjectSection(SolutionItems) = preProject
-		build-ssotme.bat = build-ssotme.bat
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreLibrary", "CoreLibrary\CoreLibrary.csproj", "{C3C5F7F6-D9D8-4165-911B-0527B69EA7EF}"
 EndProject
