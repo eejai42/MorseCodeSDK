@@ -1,10 +1,10 @@
 {
   "SSoTmeProjectId": "109a3ca6-4391-4d84-9edc-68585ce5b4eb",
-  "Name": "ssotme-seed",
+  "Name": "MsSeed",
   "RootPath": "C:\\Development\\ssotme-ms-seed",
   "ProjectSettings": [
     {
-      "ProjectSettingId": "7075e037-2577-4f6f-99c1-8ddfacefebac",
+      "ProjectSettingId": "551a946a-f014-471b-a8fb-461e6477d5f0",
       "Name": "project-name",
       "Value": "MsSeed"
     }
@@ -403,6 +403,43 @@
       "Name": "OdxmlToPostmanJson",
       "RelativePath": "/Postman",
       "CommandLine": "odxml42/odxml-to-postman-json -i ..\\ODXML\\DataSchema.odxml -p api-uri=http://localhost:64110/api"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "be08e747-c0b8-4e69-bed3-d64db1a9406c",
+        "AccountHolderId": "9aeb4f89-3c90-4972-927c-7deebfbb9de4",
+        "Name": "OdxmlToMVCRESTAPI",
+        "DisplayName": "Odxml To M V C R E S T A P I",
+        "Description": "Odxml To MVC REST API",
+        "CreatedOn": "2017-11-27T03:18:05.62",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-038mgzT3ATTpDx-Ekoww0w",
+        "LowerName": "odxmltomvcrestapi",
+        "UpperName": "ODXMLTOMVCRESTAPI",
+        "LowerHyphenName": "odxml-to-m-v-c-r-e-s-t-a-p-i",
+        "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
+        "OutputFileTypeId": "47f5fc9f-0c22-4f73-8d18-0544a7f05d7b",
+        "UsageCount": 5,
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "f71f1171-6d76-42ed-8ef5-4a533a3f8034",
+            "TranspilerId": "be08e747-c0b8-4e69-bed3-d64db1a9406c",
+            "Name": "v1",
+            "CreatedOn": "2017-11-27T03:18:21.433",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "ce4bded3-59cf-4e6c-8834-199db214f360",
+      "Name": "OdxmlToMVCRESTAPI",
+      "RelativePath": "/MVCRestApi/Controllers/api",
+      "CommandLine": "odxml42/odxml-to-mvc-rest-api -i ..\\..\\..\\ODXML\\DataSchema.odxml"
     }
   ]
 }
