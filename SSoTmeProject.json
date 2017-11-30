@@ -364,6 +364,45 @@
       "Name": "OdxmlToCSharpSqlDataManager",
       "RelativePath": "/CoreLibrary/SqlDataAccessLayer",
       "CommandLine": "odxml42/odxml-to-csharp-sql-data-manager -i ..\\..\\ODXML\\DataSchema.odxml"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "ee1dc0b2-dc87-4e0f-bcb1-ade46b09de41",
+        "AccountHolderId": "9aeb4f89-3c90-4972-927c-7deebfbb9de4",
+        "Name": "OdxmlToPostmanJson",
+        "DisplayName": "Odxml To Postman Json",
+        "Description": "Odxml To Postman Json",
+        "CreatedOn": "2017-11-27T02:50:26.217",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-038mgzT3ATTpDx-Ekoww0w",
+        "LowerName": "odxmltopostmanjson",
+        "UpperName": "ODXMLTOPOSTMANJSON",
+        "LowerHyphenName": "odxml-to-postman-json",
+        "ReadMeMD": "Creates a REST Api Requests in a format ready to imported into Postman.",
+        "InputDescriptionMD": "param name=\"project-name\" select=\"'REST Collection'\"  \r\nparam name=\"api-uri\" select=\"'http://localhost:64110/api/'\"\r\n",
+        "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
+        "OutputFileTypeId": "e827499f-f215-4b35-8dae-6bd423a75e4c",
+        "UsageCount": 3,
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "2f392ff2-3095-4932-8793-b518eeedf41e",
+            "TranspilerId": "ee1dc0b2-dc87-4e0f-bcb1-ade46b09de41",
+            "Name": "v1",
+            "CreatedOn": "2017-11-27T02:50:47.877",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "599304c7-c3b2-4f6e-9899-194035558e9a",
+      "Name": "OdxmlToPostmanJson",
+      "RelativePath": "/Postman",
+      "CommandLine": "odxml42/odxml-to-postman-json -i ..\\ODXML\\DataSchema.odxml -p api-uri=http://localhost:64110/api"
     }
   ]
 }
