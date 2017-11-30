@@ -1,1 +1,369 @@
-{"SSoTmeProjectId":"109a3ca6-4391-4d84-9edc-68585ce5b4eb","Name":"ssotme-seed","RootPath":"C:\\Development\\ssotme-ms-seed","ProjectSettings":[],"ProjectTranspilers":[{"MatchedTranspiler":{"TranspilerId":"b7720daf-03a1-4bae-8050-bf2456c5515f","AccountHolderId":"1e876e4f-d63b-4698-bd68-3bc27876e41e","Name":"TextToWordListXml","DisplayName":"Text To Word List Xml","Description":"Converts a textfile into a list of words with associated part of speech along with metrics on usage.","CreatedOn":"2017-11-16T23:21:04.413","IsActive":true,"CurrentRoutingKey":"","LowerName":"texttowordlistxml","UpperName":"TEXTTOWORDLISTXML","LowerHyphenName":"text-to-word-list-xml","InputFileTypeId":"6c58b9cb-e109-4273-a52b-c8a68f4009da","OutputFileTypeId":"f1b92a2a-3f83-4000-9b37-57f920e14419","UsageCount":259,"TranspileRequests":[],"TranspilerInstances":[],"TranspilerVersions":[{"TranspilerVersionId":"1d219691-5e2b-41e0-8047-ab9567520148","TranspilerId":"b7720daf-03a1-4bae-8050-bf2456c5515f","Name":"v1","CreatedOn":"2017-11-16T23:21:27.8","IsActive":true,"TranspilerFileTypeId_TranspilerInputHints":[],"TranspilerInstances":[],"ReplacedByTranspilerVersionId_TranspilerVersions":[]}]},"CLIHandler":null,"ProjectTranspilerId":"7dbe0eb6-613e-4805-85a7-83682220f3ed","Name":"TextToWordListXml","RelativePath":"/SSoT","CommandLine":"text-to-wordlist-xml -i .\\ProjectDescription.txt"},{"MatchedTranspiler":{"TranspilerId":"cc19e52e-80ec-4e78-8c98-9a7e84e9f2cd","Name":"WordlistXmlToRenamesCsv","DisplayName":"Wordlist Xml To Renames Csv","Description":"Converts a wordlist xml into a Renames.Csv file which can then be turned into an Odxml file.","CreatedOn":"2017-11-19T03:20:28.53","IsActive":true,"CurrentRoutingKey":"","LowerName":"wordlistxmltorenamescsv","UpperName":"WORDLISTXMLTORENAMESCSV","LowerHyphenName":"wordlist-xml-to-renames-csv","ReadMeMD":"Converts a wordlist xml created by the [codee42/text-to-wordlist-xml] tool into a Renames.Csv file which can then be turned into an Odxml file.","InputFileTypeId":"f1b92a2a-3f83-4000-9b37-57f920e14419","OutputFileTypeId":"2b02094e-3b80-4a07-8db2-0c2f38d44328","UsageCount":102,"TranspileRequests":[],"TranspilerInstances":[],"TranspilerVersions":[{"TranspilerVersionId":"f4b0facc-a212-4b5a-9bf0-b384baaa47d6","TranspilerId":"cc19e52e-80ec-4e78-8c98-9a7e84e9f2cd","Name":"v1","CreatedOn":"2017-11-19T03:20:30.253","IsActive":true,"TranspilerFileTypeId_TranspilerInputHints":[],"TranspilerInstances":[],"ReplacedByTranspilerVersionId_TranspilerVersions":[]}]},"CLIHandler":null,"ProjectTranspilerId":"fc5431b0-3a67-4fc6-86ce-922a8076f4ec","Name":"WordlistXmlToRenamesCsv","RelativePath":"/ODXML","CommandLine":"wordlist-xml-to-renames-csv -i ..\\SSoT\\ProjectDescription.txt.xml -i Renames.csv"},{"MatchedTranspiler":{"TranspilerId":"87be9a9d-8bbe-4564-b40b-a333ab58b807","AccountHolderId":"9aeb4f89-3c90-4972-927c-7deebfbb9de4","Name":"RenamesCSVToOdxml","DisplayName":"Renames C S V To Odxml","Description":"Convert a Renames CSV File into an Odxml file/","CreatedOn":"2017-11-18T21:40:21.607","IsActive":true,"CurrentRoutingKey":"amq.gen-Yz7fPo2hU98SRxnhf2vBMw","LowerName":"renamescsvtoodxml","UpperName":"RENAMESCSVTOODXML","LowerHyphenName":"renames-c-s-v-to-odxml","ReadMeMD":"Convert a Renames CSV File into an Odxml file using as many hints as are available.","InputDescriptionMD":"The input CSV can have\r\nFromName (object | object.property)\r\nToName (object | property)\r\nParentName\r\nInclude (true | false)\r\nDescription\r\nDataType\r\nDataLength\r\n","InputFileTypeId":"2b02094e-3b80-4a07-8db2-0c2f38d44328","OutputFileTypeId":"33de424c-cfe0-498e-ae70-44da375a8fb2","UsageCount":179,"TranspileRequests":[],"TranspilerInstances":[],"TranspilerVersions":[{"TranspilerVersionId":"78de1b37-cc0b-44c6-ba27-677af973620e","TranspilerId":"87be9a9d-8bbe-4564-b40b-a333ab58b807","Name":"v1","CreatedOn":"2017-11-18T21:43:34.36","IsActive":true,"TranspilerFileTypeId_TranspilerInputHints":[],"TranspilerInstances":[],"ReplacedByTranspilerVersionId_TranspilerVersions":[]}]},"CLIHandler":null,"ProjectTranspilerId":"e22ecc80-217b-4c99-8b6c-f32cbdb51f2e","Name":"RenamesCSVToOdxml","RelativePath":"/ODXML","CommandLine":"odxml42/renames-csv-to-odxml -i .\\Renames.csv"},{"MatchedTranspiler":{"TranspilerId":"8defe7a3-89cf-4989-b679-d9226519f622","AccountHolderId":"9aeb4f89-3c90-4972-927c-7deebfbb9de4","Name":"OdxmlToNodeJSDocs","DisplayName":"Odxml To Node J S Docs","Description":"Creates easy to read/navigate html documentation for an Odxml Schema.","CreatedOn":"2017-08-29T21:18:01.293","IsActive":true,"CurrentRoutingKey":"amq.gen-wTPCixlNexS-dMsS8SN9Xg","LowerName":"odxmltonodejsdocs","UpperName":"ODXMLTONODEJSDOCS","LowerHyphenName":"odxml-to-node-j-s-docs","ReadMeMD":"Examines the schema defined by an Odxml file and creates an interactive DataModel explorer for exploring the structure of the data model defined. \r\n\r\nCreates both a single page version of the docs, as well as a Node.JS website that can be started on demand to explore the data model more interactively.","InputFileTypeId":"33de424c-cfe0-498e-ae70-44da375a8fb2","OutputFileTypeId":"d8fc84b7-442d-4c7a-92a0-eefc11391934","UsageCount":464,"Category":"documentation","IsRecommended":true,"TranspileRequests":[],"TranspilerInstances":[],"TranspilerVersions":[{"TranspilerVersionId":"26af4ad8-fb5d-4027-8e4b-2260c62f3f24","TranspilerId":"8defe7a3-89cf-4989-b679-d9226519f622","Name":"v1","CreatedOn":"2017-08-29T21:18:03.463","IsActive":true,"TranspilerFileTypeId_TranspilerInputHints":[],"TranspilerInstances":[],"ReplacedByTranspilerVersionId_TranspilerVersions":[]}]},"CLIHandler":null,"ProjectTranspilerId":"37fbd3d2-b5e6-45a3-8c7a-b3823d0c7960","Name":"OdxmlToNodeJSDocs","RelativePath":"/Docs","CommandLine":"odxml42/odxml-to-nodejs-docs -i ..\\ODXML\\DataSchema.odxml"},{"MatchedTranspiler":{"TranspilerId":"ccea0ffb-6635-4929-bb72-a54ed716d27c","AccountHolderId":"9aeb4f89-3c90-4972-927c-7deebfbb9de4","Name":"OdxmlToSqlServerCreateDb","DisplayName":"Odxml To Sql Server Create Db","Description":"OdxmlToSqlServerCreateDb","CreatedOn":"2017-06-05T18:08:36","IsActive":true,"CurrentRoutingKey":"amq.gen-wTPCixlNexS-dMsS8SN9Xg","LowerName":"odxmltosqlservercreatedb","UpperName":"ODXMLTOSQLSERVERCREATEDB","LowerHyphenName":"odxml-to-sql-server-create-db","ReadMeMD":"Adds any missing tables and relationships in a SQL Server database based on an ODXML Schema description.","InputFileTypeId":"33de424c-cfe0-498e-ae70-44da375a8fb2","OutputFileTypeId":"1136a8fc-7ced-47c2-b08d-1ff447a82b01","UsageCount":259,"Category":"sql-server","TranspileRequests":[],"TranspilerInstances":[],"TranspilerVersions":[{"TranspilerVersionId":"726b9dd3-03ce-48f7-9de2-b4eb284d97b0","TranspilerId":"ccea0ffb-6635-4929-bb72-a54ed716d27c","Name":"v1","CreatedOn":"2017-06-05T18:08:46.617","IsActive":true,"TranspilerFileTypeId_TranspilerInputHints":[],"TranspilerInstances":[],"ReplacedByTranspilerVersionId_TranspilerVersions":[]}]},"CLIHandler":null,"ProjectTranspilerId":"ce1207c3-72fb-444c-b579-5a7cfd3ebac7","Name":"OdxmlToSqlServerCreateDb","RelativePath":"/SqlServer","CommandLine":"odxml42/odxml-to-sql-server-createdb -i ..\\ODXML\\DataSchema.odxml"},{"MatchedTranspiler":{"TranspilerId":"dcca5f8a-cb56-428d-8845-5b99d4e2d5a6","AccountHolderId":"9aeb4f89-3c90-4972-927c-7deebfbb9de4","Name":"OdxmlToSqlServerCheckDb","DisplayName":"Odxml To Sql Server Check Db","Description":"OdxmlToSqlServerCheckDb","CreatedOn":"2017-06-05T18:08:45.747","IsActive":true,"CurrentRoutingKey":"amq.gen-wTPCixlNexS-dMsS8SN9Xg","LowerName":"odxmltosqlservercheckdb","UpperName":"ODXMLTOSQLSERVERCHECKDB","LowerHyphenName":"odxml-to-sql-server-check-db","ReadMeMD":"Creates a script which will check that every field in a dat model exists with SQL Server.","InputFileTypeId":"33de424c-cfe0-498e-ae70-44da375a8fb2","OutputFileTypeId":"1136a8fc-7ced-47c2-b08d-1ff447a82b01","UsageCount":122,"Category":"sql-server","TranspileRequests":[],"TranspilerInstances":[],"TranspilerVersions":[{"TranspilerVersionId":"2a6f5a02-3fed-49eb-b6e4-5b2c9873ccb1","TranspilerId":"dcca5f8a-cb56-428d-8845-5b99d4e2d5a6","Name":"v1","CreatedOn":"2017-06-05T18:08:46.607","IsActive":true,"TranspilerFileTypeId_TranspilerInputHints":[],"TranspilerInstances":[],"ReplacedByTranspilerVersionId_TranspilerVersions":[]}]},"CLIHandler":null,"ProjectTranspilerId":"563873cb-68f1-451d-973c-72da5d51cb9f","Name":"OdxmlToSqlServerCheckDb","RelativePath":"/SqlServer","CommandLine":"odxml42/odxml-to-sql-server-checkdb -i ..\\ODXML\\DataSchema.odxml"},{"MatchedTranspiler":{"TranspilerId":"595b7fe7-7f64-44c2-b48c-d096d997211f","AccountHolderId":"9aeb4f89-3c90-4972-927c-7deebfbb9de4","Name":"OdxmlToCSharpPOCOs","DisplayName":"Odxml To C Sharp P O C Os","Description":"Odxml To CSharp POCOs","CreatedOn":"2017-09-07T17:35:30.24","IsActive":true,"CurrentRoutingKey":"amq.gen-wTPCixlNexS-dMsS8SN9Xg","LowerName":"odxmltocsharppocos","UpperName":"ODXMLTOCSHARPPOCOS","LowerHyphenName":"odxml-to-c-sharp-p-o-c-os","ReadMeMD":"param name=\"include-list-prefix\" select=\"true\"\r\nWill include the fieldname of the referenced object before lists so that if a child object has multiple references to an object, the collections on the parent will be distinguished by the name of the child properties.\r\n\r\n\r\nparam name=\"include-inheritance\" select=\"true\"\r\nIf a relationship exists on the primary key fo the object, it will be infered to \"descend\" from the refrenced object.\r\n\r\nparam name=\"pluralize-json-references\" select=\"true\"\r\nDetermines if the \"original name\" should be pluraized in the Json serialization header.","InputFileTypeId":"33de424c-cfe0-498e-ae70-44da375a8fb2","OutputFileTypeId":"47f5fc9f-0c22-4f73-8d18-0544a7f05d7b","UsageCount":519,"Category":"dot-net","IsRecommended":true,"TranspileRequests":[],"TranspilerInstances":[],"TranspilerVersions":[{"TranspilerVersionId":"a52a5130-bd3c-4974-8def-374cd52a4592","TranspilerId":"595b7fe7-7f64-44c2-b48c-d096d997211f","Name":"v1","CreatedOn":"2017-09-07T17:35:33.567","IsActive":true,"TranspilerFileTypeId_TranspilerInputHints":[],"TranspilerInstances":[],"ReplacedByTranspilerVersionId_TranspilerVersions":[]}]},"CLIHandler":null,"ProjectTranspilerId":"ea08a7ef-e8f3-4ca3-a84f-180955417c1a","Name":"OdxmlToCSharpPOCOs","RelativePath":"/CoreLibrary/DataClasses","CommandLine":"odxml42/odxml-to-csharp-pocos -i ..\\..\\ODXML\\DataSchema.odxml"}]}
+{
+  "SSoTmeProjectId": "109a3ca6-4391-4d84-9edc-68585ce5b4eb",
+  "Name": "ssotme-seed",
+  "RootPath": "C:\\Development\\ssotme-ms-seed",
+  "ProjectSettings": [
+    {
+      "ProjectSettingId": "7075e037-2577-4f6f-99c1-8ddfacefebac",
+      "Name": "project-name",
+      "Value": "MsSeed"
+    }
+  ],
+  "ProjectTranspilers": [
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "b7720daf-03a1-4bae-8050-bf2456c5515f",
+        "AccountHolderId": "1e876e4f-d63b-4698-bd68-3bc27876e41e",
+        "Name": "TextToWordListXml",
+        "DisplayName": "Text To Word List Xml",
+        "Description": "Converts a textfile into a list of words with associated part of speech along with metrics on usage.",
+        "CreatedOn": "2017-11-16T23:21:04.413",
+        "IsActive": true,
+        "CurrentRoutingKey": "",
+        "LowerName": "texttowordlistxml",
+        "UpperName": "TEXTTOWORDLISTXML",
+        "LowerHyphenName": "text-to-word-list-xml",
+        "InputFileTypeId": "6c58b9cb-e109-4273-a52b-c8a68f4009da",
+        "OutputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
+        "UsageCount": 397,
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "1d219691-5e2b-41e0-8047-ab9567520148",
+            "TranspilerId": "b7720daf-03a1-4bae-8050-bf2456c5515f",
+            "Name": "v1",
+            "CreatedOn": "2017-11-16T23:21:27.8",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "7dbe0eb6-613e-4805-85a7-83682220f3ed",
+      "Name": "TextToWordListXml",
+      "RelativePath": "/SSoT",
+      "CommandLine": "text-to-wordlist-xml -i .\\ProjectDescription.txt"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "cc19e52e-80ec-4e78-8c98-9a7e84e9f2cd",
+        "Name": "WordlistXmlToRenamesCsv",
+        "DisplayName": "Wordlist Xml To Renames Csv",
+        "Description": "Converts a wordlist xml into a Renames.Csv file which can then be turned into an Odxml file.",
+        "CreatedOn": "2017-11-19T03:20:28.53",
+        "IsActive": true,
+        "CurrentRoutingKey": "",
+        "LowerName": "wordlistxmltorenamescsv",
+        "UpperName": "WORDLISTXMLTORENAMESCSV",
+        "LowerHyphenName": "wordlist-xml-to-renames-csv",
+        "ReadMeMD": "Converts a wordlist xml created by the [codee42/text-to-wordlist-xml] tool into a Renames.Csv file which can then be turned into an Odxml file.",
+        "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
+        "OutputFileTypeId": "2b02094e-3b80-4a07-8db2-0c2f38d44328",
+        "UsageCount": 227,
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "f4b0facc-a212-4b5a-9bf0-b384baaa47d6",
+            "TranspilerId": "cc19e52e-80ec-4e78-8c98-9a7e84e9f2cd",
+            "Name": "v1",
+            "CreatedOn": "2017-11-19T03:20:30.253",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "fc5431b0-3a67-4fc6-86ce-922a8076f4ec",
+      "Name": "WordlistXmlToRenamesCsv",
+      "RelativePath": "/ODXML",
+      "CommandLine": "wordlist-xml-to-renames-csv -i ..\\SSoT\\ProjectDescription.txt.xml -i Renames.csv"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "87be9a9d-8bbe-4564-b40b-a333ab58b807",
+        "AccountHolderId": "9aeb4f89-3c90-4972-927c-7deebfbb9de4",
+        "Name": "RenamesCSVToOdxml",
+        "DisplayName": "Renames C S V To Odxml",
+        "Description": "Convert a Renames CSV File into an Odxml file/",
+        "CreatedOn": "2017-11-18T21:40:21.607",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen--56WM57xMlfjk_mwKEPWdQ",
+        "LowerName": "renamescsvtoodxml",
+        "UpperName": "RENAMESCSVTOODXML",
+        "LowerHyphenName": "renames-c-s-v-to-odxml",
+        "ReadMeMD": "Convert a Renames CSV File into an Odxml file using as many hints as are available.",
+        "InputDescriptionMD": "The input CSV can have\r\nFromName (object | object.property)\r\nToName (object | property)\r\nParentName\r\nInclude (true | false)\r\nDescription\r\nDataType\r\nDataLength\r\n",
+        "InputFileTypeId": "2b02094e-3b80-4a07-8db2-0c2f38d44328",
+        "OutputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
+        "UsageCount": 301,
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "78de1b37-cc0b-44c6-ba27-677af973620e",
+            "TranspilerId": "87be9a9d-8bbe-4564-b40b-a333ab58b807",
+            "Name": "v1",
+            "CreatedOn": "2017-11-18T21:43:34.36",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "e22ecc80-217b-4c99-8b6c-f32cbdb51f2e",
+      "Name": "RenamesCSVToOdxml",
+      "RelativePath": "/ODXML",
+      "CommandLine": "odxml42/renames-csv-to-odxml -i .\\Renames.csv"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "8defe7a3-89cf-4989-b679-d9226519f622",
+        "AccountHolderId": "9aeb4f89-3c90-4972-927c-7deebfbb9de4",
+        "Name": "OdxmlToNodeJSDocs",
+        "DisplayName": "Odxml To Node J S Docs",
+        "Description": "Creates easy to read/navigate html documentation for an Odxml Schema.",
+        "CreatedOn": "2017-08-29T21:18:01.293",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-038mgzT3ATTpDx-Ekoww0w",
+        "LowerName": "odxmltonodejsdocs",
+        "UpperName": "ODXMLTONODEJSDOCS",
+        "LowerHyphenName": "odxml-to-node-j-s-docs",
+        "ReadMeMD": "Examines the schema defined by an Odxml file and creates an interactive DataModel explorer for exploring the structure of the data model defined. \r\n\r\nCreates both a single page version of the docs, as well as a Node.JS website that can be started on demand to explore the data model more interactively.",
+        "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
+        "OutputFileTypeId": "d8fc84b7-442d-4c7a-92a0-eefc11391934",
+        "UsageCount": 591,
+        "Category": "documentation",
+        "IsRecommended": true,
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "26af4ad8-fb5d-4027-8e4b-2260c62f3f24",
+            "TranspilerId": "8defe7a3-89cf-4989-b679-d9226519f622",
+            "Name": "v1",
+            "CreatedOn": "2017-08-29T21:18:03.463",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "37fbd3d2-b5e6-45a3-8c7a-b3823d0c7960",
+      "Name": "OdxmlToNodeJSDocs",
+      "RelativePath": "/Docs",
+      "CommandLine": "odxml42/odxml-to-nodejs-docs -i ..\\ODXML\\DataSchema.odxml"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "ccea0ffb-6635-4929-bb72-a54ed716d27c",
+        "AccountHolderId": "9aeb4f89-3c90-4972-927c-7deebfbb9de4",
+        "Name": "OdxmlToSqlServerCreateDb",
+        "DisplayName": "Odxml To Sql Server Create Db",
+        "Description": "OdxmlToSqlServerCreateDb",
+        "CreatedOn": "2017-06-05T18:08:36",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-038mgzT3ATTpDx-Ekoww0w",
+        "LowerName": "odxmltosqlservercreatedb",
+        "UpperName": "ODXMLTOSQLSERVERCREATEDB",
+        "LowerHyphenName": "odxml-to-sql-server-create-db",
+        "ReadMeMD": "Adds any missing tables and relationships in a SQL Server database based on an ODXML Schema description.",
+        "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
+        "OutputFileTypeId": "1136a8fc-7ced-47c2-b08d-1ff447a82b01",
+        "UsageCount": 393,
+        "Category": "sql-server",
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "726b9dd3-03ce-48f7-9de2-b4eb284d97b0",
+            "TranspilerId": "ccea0ffb-6635-4929-bb72-a54ed716d27c",
+            "Name": "v1",
+            "CreatedOn": "2017-06-05T18:08:46.617",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "ce1207c3-72fb-444c-b579-5a7cfd3ebac7",
+      "Name": "OdxmlToSqlServerCreateDb",
+      "RelativePath": "/SqlServer",
+      "CommandLine": "odxml42/odxml-to-sql-server-createdb -i ..\\ODXML\\DataSchema.odxml"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "dcca5f8a-cb56-428d-8845-5b99d4e2d5a6",
+        "AccountHolderId": "9aeb4f89-3c90-4972-927c-7deebfbb9de4",
+        "Name": "OdxmlToSqlServerCheckDb",
+        "DisplayName": "Odxml To Sql Server Check Db",
+        "Description": "OdxmlToSqlServerCheckDb",
+        "CreatedOn": "2017-06-05T18:08:45.747",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-QfvlD6AqvXzJwZQHpwQRRA",
+        "LowerName": "odxmltosqlservercheckdb",
+        "UpperName": "ODXMLTOSQLSERVERCHECKDB",
+        "LowerHyphenName": "odxml-to-sql-server-check-db",
+        "ReadMeMD": "Creates a script which will check that every field in a dat model exists with SQL Server.",
+        "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
+        "OutputFileTypeId": "1136a8fc-7ced-47c2-b08d-1ff447a82b01",
+        "UsageCount": 256,
+        "Category": "sql-server",
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "2a6f5a02-3fed-49eb-b6e4-5b2c9873ccb1",
+            "TranspilerId": "dcca5f8a-cb56-428d-8845-5b99d4e2d5a6",
+            "Name": "v1",
+            "CreatedOn": "2017-06-05T18:08:46.607",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "563873cb-68f1-451d-973c-72da5d51cb9f",
+      "Name": "OdxmlToSqlServerCheckDb",
+      "RelativePath": "/SqlServer",
+      "CommandLine": "odxml42/odxml-to-sql-server-checkdb -i ..\\ODXML\\DataSchema.odxml"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "595b7fe7-7f64-44c2-b48c-d096d997211f",
+        "AccountHolderId": "9aeb4f89-3c90-4972-927c-7deebfbb9de4",
+        "Name": "OdxmlToCSharpPOCOs",
+        "DisplayName": "Odxml To C Sharp P O C Os",
+        "Description": "Odxml To CSharp POCOs",
+        "CreatedOn": "2017-09-07T17:35:30.24",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-ClFrnG6AMwloJkLnUQ2d3Q",
+        "LowerName": "odxmltocsharppocos",
+        "UpperName": "ODXMLTOCSHARPPOCOS",
+        "LowerHyphenName": "odxml-to-c-sharp-p-o-c-os",
+        "ReadMeMD": "param name=\"include-list-prefix\" select=\"true\"\r\nWill include the fieldname of the referenced object before lists so that if a child object has multiple references to an object, the collections on the parent will be distinguished by the name of the child properties.\r\n\r\nparam name=include-sdm-expand=false\r\nparam name=include-load-methods=true\r\n\r\nparam name=\"include-inheritance\" select=\"true\"\r\nIf a relationship exists on the primary key fo the object, it will be infered to \"descend\" from the refrenced object.\r\n\r\nparam name=\"pluralize-json-references\" select=\"true\"\r\nDetermines if the \"original name\" should be pluraized in the Json serialization header.\r\n\r\nparam name=sdm--namespace = 'using KP.ODXML7.SqlDataManager.{project-name}.SqlDataManagement;'\r\n\r\n\r\nparam name=extensions-namespace = 'CoreLibrary.Extensions'\r\n\r\nparam name=serialize-to-original-names=\"'false\"  \r\nInidicates if the json formatting should use original names\r\n\r\nparam name=\"csproj-filename\" = ''\r\nparam name=\"output-csproj-filename\" = ''\r\nparam name=\"relative-path\" = ''\r\n",
+        "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
+        "OutputFileTypeId": "47f5fc9f-0c22-4f73-8d18-0544a7f05d7b",
+        "UsageCount": 652,
+        "Category": "dot-net",
+        "IsRecommended": true,
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "a52a5130-bd3c-4974-8def-374cd52a4592",
+            "TranspilerId": "595b7fe7-7f64-44c2-b48c-d096d997211f",
+            "Name": "v1",
+            "CreatedOn": "2017-09-07T17:35:33.567",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "ea08a7ef-e8f3-4ca3-a84f-180955417c1a",
+      "Name": "OdxmlToCSharpPOCOs",
+      "RelativePath": "/CoreLibrary/DataClasses",
+      "CommandLine": "odxml42/odxml-to-csharp-pocos -i ..\\..\\ODXML\\DataSchema.odxml -i ..\\CoreLibrary.csproj -p output-csproj-filename=../CoreLibrary.csproj -p relative-path=DataClasses\\\\ -p include-sdm-expand=true"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "4b713f03-1d9f-42f2-b02f-e3cdbd237bb3",
+        "AccountHolderId": "1e876e4f-d63b-4698-bd68-3bc27876e41e",
+        "Name": "XmlXsltTransform",
+        "DisplayName": "Xml Xslt Transform",
+        "Description": "Given an Xml and Xslt file, will process and \"split\" a resulting fileset.",
+        "CreatedOn": "2017-08-30T15:45:09.907",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-pwRUdyqwEq8fPN8gkK7ADg",
+        "LowerName": "xmlxslttransform",
+        "UpperName": "XMLXSLTTRANSFORM",
+        "LowerHyphenName": "xml-xslt-transform",
+        "ReadMeMD": "The tool processes the first text file it finds (which is presumed to be in xml format), with the first Xslt file provided, and includes any parameters that are passed to ssotme as well.\r\n\r\nThe output is expected to be a FileSet Xml blob with the results of the transform.",
+        "InputDescriptionMD": "At least 1 input Xml file, An Xslt file to use for the Transform operation and any additional parameters that the Xslt file uses for it's transpiling functionality.  These could be options, values, namespaces, etc.",
+        "OutputDescriptionMD": "A fileset with the result of the Xslt transform, usually including at least 1 or more files.  The example command might produce an HTML Document that describes (in english) the contents of the Xml file.  Essentially a \"report\" about the xml file. ",
+        "ExampleMD": "ssotme -install xml-xslt-transform -i MyData.xml -i CreateDocs.xslt",
+        "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
+        "OutputFileTypeId": "952e47eb-3448-4627-8dc4-93dab494c957",
+        "UsageCount": 4272,
+        "Category": "type-conversion",
+        "IsRecommended": true,
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "7e941388-752b-4b0f-9631-939b790be10f",
+            "TranspilerId": "4b713f03-1d9f-42f2-b02f-e3cdbd237bb3",
+            "Name": "v1",
+            "CreatedOn": "2017-08-30T15:45:10.653",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "f9dde084-0f60-4e49-8c28-f0807962b17c",
+      "Name": "XmlXsltTransform",
+      "RelativePath": "/CustomTools",
+      "CommandLine": "xml-xslt-transform -i ..\\ODXML\\DataSchema.odxml -i .\\CreateDefaultFiles.xslt"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "91081c58-9a04-4646-8ffb-d5ca789916d2",
+        "AccountHolderId": "9aeb4f89-3c90-4972-927c-7deebfbb9de4",
+        "Name": "OdxmlToCSharpSqlDataManager",
+        "DisplayName": "Odxml To C Sharp Sql Data Manager",
+        "Description": "Odxml To CSharp Sql Data Manager",
+        "CreatedOn": "2017-09-27T19:08:25.863",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-ClFrnG6AMwloJkLnUQ2d3Q",
+        "LowerName": "odxmltocsharpsqldatamanager",
+        "UpperName": "ODXMLTOCSHARPSQLDATAMANAGER",
+        "LowerHyphenName": "odxml-to-c-sharp-sql-data-manager",
+        "ReadMeMD": "Creates a Data Access Layerfor (DAL) SqlServer in CSharp which can natively read, write and update the file.",
+        "InputDescriptionMD": " - base-namespace (string)\r\n    default: 'KP.ODXML7.SqlDataManager'\r\n\r\n - project-nam (string)\r\n    default: 'DAL'\r\n\r\n - schema-name (string)\r\n    default: 'dbo'\r\n\r\nNo Default Values:\r\n\r\n - data-namespace (string)\r\n - extensions-namespace (string)\r\n - suffix (string)\r\n",
+        "OutputDescriptionMD": "Otuputs a CSharp library which can read/write/udpate the objects described by the input odxml file",
+        "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
+        "OutputFileTypeId": "47f5fc9f-0c22-4f73-8d18-0544a7f05d7b",
+        "UsageCount": 169,
+        "Category": "dot-net",
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "74255a51-7a73-4865-aa6f-e380bc22f50c",
+            "TranspilerId": "91081c58-9a04-4646-8ffb-d5ca789916d2",
+            "Name": "v1",
+            "CreatedOn": "2017-09-27T19:08:26.973",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "a7b645e7-628b-4e56-90f4-3f95fa16064d",
+      "Name": "OdxmlToCSharpSqlDataManager",
+      "RelativePath": "/CoreLibrary/SqlDataAccessLayer",
+      "CommandLine": "odxml42/odxml-to-csharp-sql-data-manager -i ..\\..\\ODXML\\DataSchema.odxml"
+    }
+  ]
+}

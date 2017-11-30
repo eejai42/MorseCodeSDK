@@ -1,0 +1,18 @@
+{
+  "TeacherId": "60c215bf-f587-4229-9aa3-4f6662f034ad",
+  "Name": "Ms. Stephanie",
+  "Dances": [
+    {
+      "DanceId": "2d1e4292-e1d8-48d6-bdab-6eb7658343f4",
+      "Name": "Game of Shadows"
+    },
+    {
+      "DanceId": "13745549-710f-4c8d-9ec6-57aabcf2daa5",
+      "Name": "Taxi"
+    },
+    {
+      "DanceId": "79012100-86c2-4b92-937f-23f53e4b5f94",
+      "Name": "Team"
+    }
+  ]
+}
