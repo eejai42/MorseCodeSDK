@@ -20,7 +20,10 @@
                         <xsl:text>README.md</xsl:text>
                     </RelativePath>
                     <xsl:element name="FileContents" xml:space="preserve"># Morse Code SDK
-This is a simple library for morse code.
+This is a simple library for morse code, based on this Google Sheet
+which is it's [Single Source of Truth](https://docs.google.com/spreadsheets/d/18BCTrO65SDX5pOBkkN-hgA-e1PqRVRRxPf-8qbSOjZQ/edit#gid=355890218).
+
+There is additional documentation on the [Wiki](https://eejai42.github.io/MorseCodeSDK/).
 
 Character <xsl:for-each select="//Variant"> | <xsl:value-of select="Name" /></xsl:for-each> |
 --- <xsl:for-each select="//Variant"> | --- </xsl:for-each> |
