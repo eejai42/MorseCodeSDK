@@ -1,5 +1,10 @@
 <MorseCodeSDK><Variants>
   <Variant>
+    <Name>International</Name>
+    <Description>International morse code has been adopted by most of the rest of the world</Description>
+    <Creator>ITU</Creator>
+  </Variant>
+  <Variant>
     <Name>American</Name>
     <Description>American or Railroad Morsecode was designed b y morse</Description>
     <Creator>Morse</Creator>
@@ -8,11 +13,6 @@
     <Name>Continental</Name>
     <Description>The Gerke code was adopted as a standard for transmission over cables by the Austro-German Telegraph Union, and this was called Continental Code</Description>
     <Creator>Gerke</Creator>
-  </Variant>
-  <Variant>
-    <Name>International</Name>
-    <Description>International morse code has been adopted by most of the rest of the world</Description>
-    <Creator>ITU</Creator>
   </Variant>
 </Variants><Signals>
   <Signal>
