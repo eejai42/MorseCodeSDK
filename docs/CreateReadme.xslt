@@ -35,9 +35,7 @@ Character <xsl:for-each select="//Variant"> | <xsl:value-of select="Name" /></xs
         <xsl:param name="char" />
         <xsl:param name="variant" />
         <xsl:text>`</xsl:text>
-        <xsl:for-each select="$variant//Character[Name = $char/Name]//Signal">
-            ![<xsl:value-of select="DisplayText"/>](https://eejai42.github.io/MorseCodeSDK/images/<xsl:value-of select="DisplayText"/>.png)
-        </xsl:for-each>
+        <xsl:for-each select="$variant//Character[Name = $char/Name]//Signal">![<xsl:value-of select="Name"/>](https://eejai42.github.io/MorseCodeSDK/images/<xsl:value-of select="Name"/>.png)</xsl:for-each>
         <xsl:text>`</xsl:text>
     </xsl:template>
 </xsl:stylesheet>
