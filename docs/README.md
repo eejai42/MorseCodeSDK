@@ -1,6 +1,10 @@
 # Morse Code SDK
 This is a simple library for morse code.
 
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+
 Character  | American | Continental | International |
 ---  | ---  | ---  | ---  |
 0  | `![ExtraLongDash](https://eejai42.github.io/MorseCodeSDK/images/ExtraLongDash.png)` | `![Dash](https://eejai42.github.io/MorseCodeSDK/images/Dash.png)![ICG](https://eejai42.github.io/MorseCodeSDK/images/ICG.png)![Dash](https://eejai42.github.io/MorseCodeSDK/images/Dash.png)![ICG](https://eejai42.github.io/MorseCodeSDK/images/ICG.png)![Dash](https://eejai42.github.io/MorseCodeSDK/images/Dash.png)![ICG](https://eejai42.github.io/MorseCodeSDK/images/ICG.png)![Dash](https://eejai42.github.io/MorseCodeSDK/images/Dash.png)![ICG](https://eejai42.github.io/MorseCodeSDK/images/ICG.png)![Dash](https://eejai42.github.io/MorseCodeSDK/images/Dash.png)` | `![Dash](https://eejai42.github.io/MorseCodeSDK/images/Dash.png)![ICG](https://eejai42.github.io/MorseCodeSDK/images/ICG.png)![Dash](https://eejai42.github.io/MorseCodeSDK/images/Dash.png)![ICG](https://eejai42.github.io/MorseCodeSDK/images/ICG.png)![Dash](https://eejai42.github.io/MorseCodeSDK/images/Dash.png)![ICG](https://eejai42.github.io/MorseCodeSDK/images/ICG.png)![Dash](https://eejai42.github.io/MorseCodeSDK/images/Dash.png)![ICG](https://eejai42.github.io/MorseCodeSDK/images/ICG.png)![Dash](https://eejai42.github.io/MorseCodeSDK/images/Dash.png)` |
