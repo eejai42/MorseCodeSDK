@@ -24,11 +24,19 @@ This is a simple library for morse code.
 
 Character <xsl:for-each select="//Variant"> | <xsl:value-of select="Name" /></xsl:for-each> |
 --- <xsl:for-each select="//Variant"> | --- </xsl:for-each> |
-<xsl:for-each select="//RawCharacters/Character"><xsl:variable name="char" select="." /><xsl:value-of select="Name"/> <xsl:for-each select="//Variant"> | <xsl:value-of select="$char/*[name() = current()/Name]" /></xsl:for-each> |
+<xsl:for-each select="//RawCharacters/Character"><xsl:variable name="char" select="." /><xsl:value-of select="Name"/> <xsl:for-each select="//Variant"> | <xsl:call-template name="print-char"><xsl:with-param name="char" select="$char" /><xsl:with-param name="variant" select="." /></xsl:call-template></xsl:for-each> |
 </xsl:for-each>
 </xsl:element>
                 </FileSetFile>
             </FileSetFiles>
         </FileSet>
+    </xsl:template>
+    <xsl:template name="print-char" xml:space="default">
+        <xsl:param name="char" />
+        <xsl:param name="variant" />
+        <xsl:for-each select="$variant//Character[Name = $char/Name]//Signal">
+            <xsl:value-of select="DisplayText"/>
+            <xsl:text> </xsl:text>
+        </xsl:for-each>
     </xsl:template>
 </xsl:stylesheet>

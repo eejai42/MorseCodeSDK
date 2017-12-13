@@ -160,8 +160,8 @@
       "CLIHandler": null,
       "ProjectTranspilerId": "37fbd3d2-b5e6-45a3-8c7a-b3823d0c7960",
       "Name": "OdxmlToNodeJSDocs",
-      "RelativePath": "/Docs",
-      "CommandLine": "odxml42/odxml-to-nodejs-docs -i ..\\ODXML\\DataSchema.odxml"
+      "RelativePath": "/docs/schema",
+      "CommandLine": "odxml42/odxml-to-nodejs-docs -i ..\\..\\ODXML\\DataSchema.odxml"
     },
     {
       "MatchedTranspiler": {
