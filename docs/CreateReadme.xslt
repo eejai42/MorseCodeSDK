@@ -22,10 +22,6 @@
                     <xsl:element name="FileContents" xml:space="preserve"># Morse Code SDK
 This is a simple library for morse code.
 
-![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
-
 Character <xsl:for-each select="//Variant"> | <xsl:value-of select="Name" /></xsl:for-each> |
 --- <xsl:for-each select="//Variant"> | --- </xsl:for-each> |
 <xsl:for-each select="//RawCharacters/Character"><xsl:variable name="char" select="." /><xsl:value-of select="Name"/> <xsl:for-each select="//Variant"> | <xsl:call-template name="print-char"><xsl:with-param name="char" select="$char" /><xsl:with-param name="variant" select="." /></xsl:call-template></xsl:for-each> |
@@ -43,7 +39,7 @@ Character <xsl:for-each select="//Variant"> | <xsl:value-of select="Name" /></xs
             <xsl:value-of select="Name"/>
             <xsl:text>](https://eejai42.github.io/MorseCodeSDK/images/</xsl:text>
             <xsl:value-of select="Name"/>
-            <xsl:text>.png</xsl:text>
+            <xsl:text>.png)</xsl:text>
         </xsl:for-each>
     </xsl:template>
 </xsl:stylesheet>
