@@ -24,24 +24,29 @@
         <xsl:for-each select="//Variant">
             <xsl:variable name="variant" select="." />
             <Variant>
-            <xsl:apply-templates select="*"/>
-            <Characters>
-                <xsl:for-each select="//Character">
-                    <xsl:variable name="variant-signal-codes" select="*[name() = $variant/Name]" />
-                    <Character>
-                        <xsl:apply-templates select="Name"/>
-                        <SignalCodes><xsl:value-of select="$variant-signal-codes" /></SignalCodes>
-                        <Signals>
-                            <xsl:call-template name="parse-variant-signal-codes">
-                                <xsl:with-param name="signal-codes" select="$variant-signal-codes" />
-                            </xsl:call-template>
-                        </Signals>
-                    </Character>
-                </xsl:for-each>
-            </Characters>
+                <xsl:apply-templates select="*"/>
+                <Characters>
+                    <xsl:for-each select="//Character">
+                        <xsl:variable name="variant-signal-codes" select="*[name() = $variant/Name]" />
+                        <Character>
+                            <xsl:apply-templates select="Name"/>
+                            <SignalCodes><xsl:value-of select="$variant-signal-codes" /></SignalCodes>
+                            <Signals>
+                                <xsl:call-template name="parse-variant-signal-codes">
+                                    <xsl:with-param name="signal-codes" select="$variant-signal-codes" />
+                                </xsl:call-template>
+                            </Signals>
+                        </Character>
+                    </xsl:for-each>
+                </Characters>
             </Variant>
         </xsl:for-each>
     </Variants>
+    <RawCharacters>
+        <xsl:for-each select="//Character">
+            <xsl:apply-templates select="." />
+        </xsl:for-each>
+    </RawCharacters>
 </MorseCodeSDK>
 </xsl:element>
                 </FileSetFile>

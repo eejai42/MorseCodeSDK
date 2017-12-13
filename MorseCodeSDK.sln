@@ -26,6 +26,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{419B1AF3-2AB0-4740-8478-B1230325AA16}"
 	ProjectSection(SolutionItems) = preProject
 		docs\CreateReadme.xslt = docs\CreateReadme.xslt
+		docs\README.md = docs\README.md
 		Docs\SinglePageDocs.html = Docs\SinglePageDocs.html
 	EndProjectSection
 EndProject

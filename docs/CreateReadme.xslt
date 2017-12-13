@@ -22,8 +22,10 @@
                     <xsl:element name="FileContents" xml:space="preserve"># Morse Code SDK
 This is a simple library for morse code.
 
-<xsl:for-each select="//Variant">
- - <xsl:value-of select="Name" /></xsl:for-each>
+Character <xsl:for-each select="//Variant"> | <xsl:value-of select="Name" /></xsl:for-each> |
+--- <xsl:for-each select="//Variant"> | --- </xsl:for-each> |
+<xsl:for-each select="//RawCharacters/Character"><xsl:variable name="char" select="." /><xsl:value-of select="Name"/> <xsl:for-each select="//Variant"> | <xsl:value-of select="$char/*[name() = current()/Name]" /></xsl:for-each> |
+</xsl:for-each>
 </xsl:element>
                 </FileSetFile>
             </FileSetFiles>
