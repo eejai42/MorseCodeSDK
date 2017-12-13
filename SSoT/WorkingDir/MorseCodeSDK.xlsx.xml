@@ -82,25 +82,25 @@
   <Character>
     <Name>0</Name>
     <American>_</American>
-    <Continental>-x-x-x-x-</Continental>
+    <Continental>_</Continental>
     <International>-x-x-x-x-</International>
   </Character>
   <Character>
     <Name>1</Name>
     <American>.x-x-x.</American>
-    <Continental>.x-x-x-x-</Continental>
+    <Continental>.x-x-x.</Continental>
     <International>.x-x-x-x-</International>
   </Character>
   <Character>
     <Name>2</Name>
     <American>.x.x-x.x.</American>
-    <Continental>.x.x-x-x-</Continental>
+    <Continental>.x.x-x.x.</Continental>
     <International>.x.x-x-x-</International>
   </Character>
   <Character>
     <Name>3</Name>
     <American>.x.x.x-x.</American>
-    <Continental>.x.x.x-x-</Continental>
+    <Continental>.x.x.x-x.</Continental>
     <International>.x.x.x-x-</International>
   </Character>
   <Character>
@@ -112,31 +112,31 @@
   <Character>
     <Name>5</Name>
     <American>-x-x-</American>
-    <Continental>.x.x.x.x.</Continental>
+    <Continental>-x-x-</Continental>
     <International>.x.x.x.x.</International>
   </Character>
   <Character>
     <Name>6</Name>
     <American>.x.x.x.x.x.</American>
-    <Continental>-x.x.x.x.</Continental>
+    <Continental>.x.x.x.x.x.</Continental>
     <International>-x.x.x.x.</International>
   </Character>
   <Character>
     <Name>7</Name>
     <American>-x-x.x.</American>
-    <Continental>-x-x.x.x.</Continental>
+    <Continental>-x-x.x.</Continental>
     <International>-x-x.x.x.</International>
   </Character>
   <Character>
     <Name>8</Name>
     <American>-x.x.x.x.</American>
-    <Continental>-x-x-x.x.</Continental>
+    <Continental>-x.x.x.x.</Continental>
     <International>-x-x-x.x.</International>
   </Character>
   <Character>
     <Name>9</Name>
     <American>-x.x.x-</American>
-    <Continental>-x-x-x-x.</Continental>
+    <Continental>-x.x.x-</Continental>
     <International>-x-x-x-x.</International>
   </Character>
   <Character>
@@ -226,13 +226,13 @@
   <Character>
     <Name>O</Name>
     <American>.X.</American>
-    <Continental>-x-x-</Continental>
+    <Continental>.x-x.x.x.</Continental>
     <International>-x-x-</International>
   </Character>
   <Character>
     <Name>P</Name>
     <American>.x.x.x.x.</American>
-    <Continental>.x-x-x.</Continental>
+    <Continental>.x.x.x.x.</Continental>
     <International>.x-x-x.</International>
   </Character>
   <Character>
@@ -280,19 +280,19 @@
   <Character>
     <Name>X</Name>
     <American>.x-x.x.</American>
-    <Continental>-x.x.x-</Continental>
+    <Continental>.x.x-x.x.x.</Continental>
     <International>-x.x.x-</International>
   </Character>
   <Character>
     <Name>Y</Name>
     <American>.x.X.x.</American>
-    <Continental>-x.x-x-</Continental>
+    <Continental>-x-x.x.x.</Continental>
     <International>-x.x-x-</International>
   </Character>
   <Character>
     <Name>Z</Name>
     <American>.x.x.X.</American>
-    <Continental>-x-x.x.</Continental>
+    <Continental>.x-x-x.x.</Continental>
     <International>-x-x.x.</International>
   </Character>
   <Character>
