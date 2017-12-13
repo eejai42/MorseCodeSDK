@@ -1,12 +1,12 @@
 {
   "SSoTmeProjectId": "109a3ca6-4391-4d84-9edc-68585ce5b4eb",
-  "Name": "MsSeed",
-  "RootPath": "C:\\Development\\ssotme-ms-seed",
+  "Name": "MorseCodeSDK",
+  "RootPath": "C:\\Development\\MorseCodeSDK",
   "ProjectSettings": [
     {
-      "ProjectSettingId": "551a946a-f014-471b-a8fb-461e6477d5f0",
+      "ProjectSettingId": "ebecaf58-e3d8-41c3-b8ce-44258d8b9839",
       "Name": "project-name",
-      "Value": "MsSeed"
+      "Value": "MorseCodeSDK"
     }
   ],
   "ProjectTranspilers": [
@@ -25,7 +25,7 @@
         "LowerHyphenName": "text-to-word-list-xml",
         "InputFileTypeId": "6c58b9cb-e109-4273-a52b-c8a68f4009da",
         "OutputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
-        "UsageCount": 397,
+        "UsageCount": 923,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -62,7 +62,7 @@
         "ReadMeMD": "Converts a wordlist xml created by the [codee42/text-to-wordlist-xml] tool into a Renames.Csv file which can then be turned into an Odxml file.",
         "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
         "OutputFileTypeId": "2b02094e-3b80-4a07-8db2-0c2f38d44328",
-        "UsageCount": 227,
+        "UsageCount": 720,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -93,7 +93,7 @@
         "Description": "Convert a Renames CSV File into an Odxml file/",
         "CreatedOn": "2017-11-18T21:40:21.607",
         "IsActive": true,
-        "CurrentRoutingKey": "amq.gen--56WM57xMlfjk_mwKEPWdQ",
+        "CurrentRoutingKey": "amq.gen-b3HnVuWdBsmMQQBhyNEfgg",
         "LowerName": "renamescsvtoodxml",
         "UpperName": "RENAMESCSVTOODXML",
         "LowerHyphenName": "renames-c-s-v-to-odxml",
@@ -101,7 +101,7 @@
         "InputDescriptionMD": "The input CSV can have\r\nFromName (object | object.property)\r\nToName (object | property)\r\nParentName\r\nInclude (true | false)\r\nDescription\r\nDataType\r\nDataLength\r\n",
         "InputFileTypeId": "2b02094e-3b80-4a07-8db2-0c2f38d44328",
         "OutputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
-        "UsageCount": 301,
+        "UsageCount": 787,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -139,7 +139,7 @@
         "ReadMeMD": "Examines the schema defined by an Odxml file and creates an interactive DataModel explorer for exploring the structure of the data model defined. \r\n\r\nCreates both a single page version of the docs, as well as a Node.JS website that can be started on demand to explore the data model more interactively.",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "d8fc84b7-442d-4c7a-92a0-eefc11391934",
-        "UsageCount": 591,
+        "UsageCount": 1141,
         "Category": "documentation",
         "IsRecommended": true,
         "TranspileRequests": [],
@@ -179,7 +179,7 @@
         "ReadMeMD": "Adds any missing tables and relationships in a SQL Server database based on an ODXML Schema description.",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "1136a8fc-7ced-47c2-b08d-1ff447a82b01",
-        "UsageCount": 393,
+        "UsageCount": 869,
         "Category": "sql-server",
         "TranspileRequests": [],
         "TranspilerInstances": [],
@@ -218,7 +218,7 @@
         "ReadMeMD": "Creates a script which will check that every field in a dat model exists with SQL Server.",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "1136a8fc-7ced-47c2-b08d-1ff447a82b01",
-        "UsageCount": 256,
+        "UsageCount": 727,
         "Category": "sql-server",
         "TranspileRequests": [],
         "TranspilerInstances": [],
@@ -257,7 +257,7 @@
         "ReadMeMD": "param name=\"include-list-prefix\" select=\"true\"\r\nWill include the fieldname of the referenced object before lists so that if a child object has multiple references to an object, the collections on the parent will be distinguished by the name of the child properties.\r\n\r\nparam name=include-sdm-expand=false\r\nparam name=include-load-methods=true\r\n\r\nparam name=\"include-inheritance\" select=\"true\"\r\nIf a relationship exists on the primary key fo the object, it will be infered to \"descend\" from the refrenced object.\r\n\r\nparam name=\"pluralize-json-references\" select=\"true\"\r\nDetermines if the \"original name\" should be pluraized in the Json serialization header.\r\n\r\nparam name=sdm--namespace = 'using KP.ODXML7.SqlDataManager.{project-name}.SqlDataManagement;'\r\n\r\n\r\nparam name=extensions-namespace = 'CoreLibrary.Extensions'\r\n\r\nparam name=serialize-to-original-names=\"'false\"  \r\nInidicates if the json formatting should use original names\r\n\r\nparam name=\"csproj-filename\" = ''\r\nparam name=\"output-csproj-filename\" = ''\r\nparam name=\"relative-path\" = ''\r\n",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "47f5fc9f-0c22-4f73-8d18-0544a7f05d7b",
-        "UsageCount": 652,
+        "UsageCount": 1281,
         "Category": "dot-net",
         "IsRecommended": true,
         "TranspileRequests": [],
@@ -300,7 +300,7 @@
         "ExampleMD": "ssotme -install xml-xslt-transform -i MyData.xml -i CreateDocs.xslt",
         "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
         "OutputFileTypeId": "952e47eb-3448-4627-8dc4-93dab494c957",
-        "UsageCount": 4272,
+        "UsageCount": 4826,
         "Category": "type-conversion",
         "IsRecommended": true,
         "TranspileRequests": [],
@@ -342,7 +342,7 @@
         "OutputDescriptionMD": "Otuputs a CSharp library which can read/write/udpate the objects described by the input odxml file",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "47f5fc9f-0c22-4f73-8d18-0544a7f05d7b",
-        "UsageCount": 169,
+        "UsageCount": 605,
         "Category": "dot-net",
         "TranspileRequests": [],
         "TranspilerInstances": [],
@@ -382,7 +382,7 @@
         "InputDescriptionMD": "param name=\"project-name\" select=\"'REST Collection'\"  \r\nparam name=\"api-uri\" select=\"'http://localhost:64110/api/'\"\r\n",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "e827499f-f215-4b35-8dae-6bd423a75e4c",
-        "UsageCount": 3,
+        "UsageCount": 424,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -419,7 +419,7 @@
         "LowerHyphenName": "odxml-to-m-v-c-r-e-s-t-a-p-i",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "47f5fc9f-0c22-4f73-8d18-0544a7f05d7b",
-        "UsageCount": 5,
+        "UsageCount": 385,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -440,6 +440,132 @@
       "Name": "OdxmlToMVCRESTAPI",
       "RelativePath": "/MVCRestApi/Controllers/api",
       "CommandLine": "odxml42/odxml-to-mvc-rest-api -i ..\\..\\..\\ODXML\\DataSchema.odxml"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "d4c9b6b7-e40b-44d6-9550-86ef55cd9623",
+        "AccountHolderId": "1e876e4f-d63b-4698-bd68-3bc27876e41e",
+        "Name": "UrlToFile",
+        "DisplayName": "Url To File",
+        "Description": "Similar to curl, this command will perform a web request and return the resulting html as a filename",
+        "CreatedOn": "2017-06-01T19:43:25.853",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-9Seraqo9GN5ve9b1i2W8bg",
+        "LowerName": "urltofile",
+        "UpperName": "URLTOFILE",
+        "LowerHyphenName": "url-to-file",
+        "ReadMeMD": "This is helpful for pulling any resource from the internet into a local SSoTme build process.",
+        "InputDescriptionMD": "A url to an online resources.  At the moment this needs to be a \"public\" resource - but down the road, there is no reason this tool can't be improved to handle many different resources types (simple auth, google, facebook, api, dropbox, etc).",
+        "OutputDescriptionMD": "A local file (or potentially file-set) - downloaded from the URL provided.",
+        "ExampleMD": "ssotme url-to-file https://my-domain.com/some-data.abc",
+        "InputFileTypeId": "c24610e6-488d-4093-a318-c9fcf855cb56",
+        "OutputFileTypeId": "952e47eb-3448-4627-8dc4-93dab494c957",
+        "UsageCount": 1764,
+        "Category": "type-conversion",
+        "IsRecommended": true,
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "e9d09212-477a-4921-bd50-a06bb0531b4e",
+            "TranspilerId": "d4c9b6b7-e40b-44d6-9550-86ef55cd9623",
+            "Name": "v1",
+            "CreatedOn": "2017-06-01T19:43:32.353",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "14797819-c92f-43f7-b608-997af6bca89c",
+      "Name": "UrlToFile",
+      "RelativePath": "/SSoT",
+      "CommandLine": "url-to-file https://docs.google.com/spreadsheets/d/18BCTrO65SDX5pOBkkN-hgA-e1PqRVRRxPf-8qbSOjZQ/export?format=xlsx binary -o MorseCodeSDK.xlsx"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "c49c2224-82c9-404f-bb8e-51c482d97db5",
+        "AccountHolderId": "1e876e4f-d63b-4698-bd68-3bc27876e41e",
+        "Name": "XlsxToXml",
+        "DisplayName": "Xlsx To Xml",
+        "Description": "Converts an Xlsx file into a single Xml file.",
+        "CreatedOn": "2017-10-06T16:52:05.873",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-pwRUdyqwEq8fPN8gkK7ADg",
+        "LowerName": "xlsxtoxml",
+        "UpperName": "XLSXTOXML",
+        "LowerHyphenName": "xlsx-to-xml",
+        "ReadMeMD": "First - the Xlsx file is passed to the Xlsx-to-csv converter.  This creates N CSV Files.  Each of these CSV files is passed to the Csv-To-Xml tool, which creates an xml file from the CSV, where the element names in the Xml are inferred from the names of the columns in the CSV data.\r\n\r\nOnce the Xml files have been produced, they are concatenated together into a single, Xml file that has ever value from the Xlsx file, but now in a \"queriable\" format.",
+        "InputFileTypeId": "39d3bcd1-d89f-4361-a3f7-7d5c295132cd",
+        "OutputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
+        "UsageCount": 204,
+        "Category": "type-conversion",
+        "IsRecommended": true,
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "79286eb3-21ed-4047-b2c9-bcfcfee794a9",
+            "TranspilerId": "c49c2224-82c9-404f-bb8e-51c482d97db5",
+            "Name": "v1",
+            "CreatedOn": "2017-10-06T16:52:11.62",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "4928bb91-5b85-4848-94ff-f3aa9c5fcfc3",
+      "Name": "XlsxToXml",
+      "RelativePath": "/SSoT",
+      "CommandLine": "xlsx-to-xml -i .\\MorseCodeSDK.xlsx -o MorseCodeSDK.xml"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "4b713f03-1d9f-42f2-b02f-e3cdbd237bb3",
+        "AccountHolderId": "1e876e4f-d63b-4698-bd68-3bc27876e41e",
+        "Name": "XmlXsltTransform",
+        "DisplayName": "Xml Xslt Transform",
+        "Description": "Given an Xml and Xslt file, will process and \"split\" a resulting fileset.",
+        "CreatedOn": "2017-08-30T15:45:09.907",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-pwRUdyqwEq8fPN8gkK7ADg",
+        "LowerName": "xmlxslttransform",
+        "UpperName": "XMLXSLTTRANSFORM",
+        "LowerHyphenName": "xml-xslt-transform",
+        "ReadMeMD": "The tool processes the first text file it finds (which is presumed to be in xml format), with the first Xslt file provided, and includes any parameters that are passed to ssotme as well.\r\n\r\nThe output is expected to be a FileSet Xml blob with the results of the transform.",
+        "InputDescriptionMD": "At least 1 input Xml file, An Xslt file to use for the Transform operation and any additional parameters that the Xslt file uses for it's transpiling functionality.  These could be options, values, namespaces, etc.",
+        "OutputDescriptionMD": "A fileset with the result of the Xslt transform, usually including at least 1 or more files.  The example command might produce an HTML Document that describes (in english) the contents of the Xml file.  Essentially a \"report\" about the xml file. ",
+        "ExampleMD": "ssotme -install xml-xslt-transform -i MyData.xml -i CreateDocs.xslt",
+        "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
+        "OutputFileTypeId": "952e47eb-3448-4627-8dc4-93dab494c957",
+        "UsageCount": 4826,
+        "Category": "type-conversion",
+        "IsRecommended": true,
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "7e941388-752b-4b0f-9631-939b790be10f",
+            "TranspilerId": "4b713f03-1d9f-42f2-b02f-e3cdbd237bb3",
+            "Name": "v1",
+            "CreatedOn": "2017-08-30T15:45:10.653",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "8d4febcf-54be-447b-82de-ec437e3df8e1",
+      "Name": "XmlXsltTransform",
+      "RelativePath": "/SSoT",
+      "CommandLine": "xml-xslt-transform -i .\\MorseCodeSDK.xlsx.xml -i CreateMorseCodeSDKXml.xslt"
     }
   ]
 }

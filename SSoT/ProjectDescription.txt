@@ -1,0 +1,82 @@
+From Wikipedia, the free encyclopedia
+
+
+
+Jump to: navigation<#mw-head>, search<#p-search> 
+
+
+
+
+[<//upload.wikimedia.org/wikipedia/commons/thumb/b/b5/International_Morse_Code.svg/315px-International_Morse_Code.svg.png>]<File:International_Morse_Code.svg>
+
+<File:International_Morse_Code.svg>
+Chart of the Morse code letters and numerals.[1]<#cite_note-itu-r-1>
+
+
+
+Morse code is a method of transmitting text<Written_language> information as a series of on-off tones, lights, or clicks that can be directly understood by a skilled listener or observer without special equipment. It is named for Samuel F. B. Morse<Samuel_F._B._Morse>, an inventor of the telegraph<Telegraph>. The International Morse Code[1]<#cite_note-itu-r-1> encodes the ISO basic Latin alphabet<ISO_basic_Latin_alphabet>, some extra Latin letters, the Arabic numerals<Arabic_numerals> and a small set of punctuation and procedural signals (prosigns<Prosigns_for_Morse_code>) as standardized sequences of short and long signals called "dots" and "dashes",[1]<#cite_note-itu-r-1> or "dits" and "dahs", as in amateur radio<Amateur_radio> practice. Because many non-English natural languages use more than the 26 Roman letters, extensions to the Morse alphabet exist for those languages.
+
+Each Morse code symbol represents either a text character (letter or numeral) or a prosign and is represented by a unique sequence of dots and dashes. The dot duration is the basic unit of time measurement in code transmission. The duration of a dash is three times the duration of a dot. Each dot or dash is followed by a short silence, equal to the dot duration. The letters of a word are separated by<Delimiter> a space equal to three dots (one dash), and the words are separated by a space equal to seven dots.[1]<#cite_note-itu-r-1> To increase the speed of the communication, the code was designed so that the length of each character in Morse is approximately inverse to its frequency of occurrence<Entropy_encoding> in English. Thus the most common letter in English, the letter "E", has the shortest code, a single dot.
+
+Morse code is used by some amateur radio operators<Amateur_radio_operator>, although knowledge of and proficiency with it is no longer required for licensing<Amateur_radio_license> in most countries. Pilots<Aviator> and air traffic controllers<Air_traffic_controllers> usually need only a cursory understanding. Aeronautical navigational aids<Navigational_aid>, such as VORs<VHF_omnidirectional_range> and NDBs<Non-directional_beacon>, constantly identify in Morse code. Compared to voice, Morse code is less sensitive to poor signal conditions, yet still comprehensible to humans without a decoding device. Morse is, therefore, a useful alternative to synthesized speech for sending automated data to skilled listeners on voice channels. Many amateur radio repeaters<Amateur_radio_repeater>, for example, identify with Morse, even though they are used for voice communications.
+
+
+[<//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/SOS.svg/150px-SOS.svg.png>]<File:SOS.svg>
+
+<File:SOS.svg>
+SOS<SOS>, the standard emergency signal, is a Morse code prosign<Prosigns_for_Morse_code>
+
+
+
+In an emergency, Morse code can be sent by improvised methods that can be easily "keyed" on and off, making it one of the simplest and most versatile methods of telecommunication<Telecommunication>. The most common distress signal is SOS<SOS> â€“ three dots, three dashes, and three dots â€“ internationally recognized by treaty.
+
+
+
+
+
+
+
+Contents
+
+
+*	1 Development and history<#Development_and_history>
+*	2 User proficiency<#User_proficiency>
+*	3 International Morse Code<#International_Morse_Code> 
+*	3.1 Aviation<#Aviation>
+*	3.2 Amateur radio<#Amateur_radio>
+*	3.3 Other uses<#Other_uses>
+*	3.4 Applications for the general public<#Applications_for_the_general_public>
+*	3.5 Morse code as an assistive technology<#Morse_code_as_an_assistive_technology>
+
+*	4 Representation, timing, and speeds<#Representation,_timing,_and_speeds> 
+*	4.1 Transmission<#Transmission>
+*	4.2 Cable code<#Cable_code>
+*	4.3 Timing<#Timing>
+*	4.4 Spoken representation<#Spoken_representation>
+*	4.5 Speed in words per minute<#Speed_in_words_per_minute>
+*	4.6 Farnsworth speed<#Farnsworth_speed>
+*	4.7 Alternative display of common characters in International Morse code<#Alternative_display_of_common_characters_in_International_Morse_code>
+*	4.8 Link budget issues<#Link_budget_issues>
+
+*	5 Learning methods<#Learning_methods> 
+*	5.1 Mnemonics<#Mnemonics>
+
+*	6 Letters, numbers, punctuation, prosigns for Morse code and non-English variants<#Letters,_numbers,_punctuation,_prosigns_for_Morse_code_and_non-English_variants> 
+*	6.1 Prosigns<#Prosigns>
+*	6.2 Symbol representations<#Symbol_representations>
+*	6.3 Non-Latin extensions<#Non-Latin_extensions>
+*	6.4 Unusual variants<#Unusual_variants>
+
+*	7 Decoding software<#Decoding_software>
+*	8 See also<#See_also>
+*	9 References<#References>
+*	10 Bibliography<#Bibliography>
+*	11 External links<#External_links>
+
+
+[<//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1>]
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Morse_code&oldid=815134919" 
+
+
+
