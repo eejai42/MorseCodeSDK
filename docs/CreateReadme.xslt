@@ -35,8 +35,9 @@ Character <xsl:for-each select="//Variant"> | <xsl:value-of select="Name" /></xs
         <xsl:param name="char" />
         <xsl:param name="variant" />
         <xsl:for-each select="$variant//Character[Name = $char/Name]//Signal">
+            <xsl:text>`</xsl:text>
             <xsl:value-of select="DisplayText"/>
-            <xsl:text> </xsl:text>
+            <xsl:text>`</xsl:text>
         </xsl:for-each>
     </xsl:template>
 </xsl:stylesheet>
