@@ -9,11 +9,6 @@
     <Description>The Gerke code was adopted as a standard for transmission over cables by the Austro-German Telegraph Union, and this was called Continental Code</Description>
     <Creator>Gerke</Creator>
   </Variant>
-  <Variant>
-    <Name>International</Name>
-    <Description>International morse code has been adopted by most of the rest of the world</Description>
-    <Creator>ITU</Creator>
-  </Variant>
 </Variants><Signals>
   <Signal>
     <Name>Dot</Name>
