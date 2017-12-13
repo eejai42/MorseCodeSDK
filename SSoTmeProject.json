@@ -481,7 +481,7 @@
       "CLIHandler": null,
       "ProjectTranspilerId": "14797819-c92f-43f7-b608-997af6bca89c",
       "Name": "UrlToFile",
-      "RelativePath": "/SSoT",
+      "RelativePath": "/SSoT/WorkingDir",
       "CommandLine": "url-to-file https://docs.google.com/spreadsheets/d/18BCTrO65SDX5pOBkkN-hgA-e1PqRVRRxPf-8qbSOjZQ/export?format=xlsx binary -o MorseCodeSDK.xlsx"
     },
     {
@@ -521,7 +521,7 @@
       "CLIHandler": null,
       "ProjectTranspilerId": "4928bb91-5b85-4848-94ff-f3aa9c5fcfc3",
       "Name": "XlsxToXml",
-      "RelativePath": "/SSoT",
+      "RelativePath": "/SSoT/WorkingDir",
       "CommandLine": "xlsx-to-xml -i .\\MorseCodeSDK.xlsx -o MorseCodeSDK.xml"
     },
     {
@@ -564,7 +564,7 @@
       "CLIHandler": null,
       "ProjectTranspilerId": "8d4febcf-54be-447b-82de-ec437e3df8e1",
       "Name": "XmlXsltTransform",
-      "RelativePath": "/SSoT",
+      "RelativePath": "/SSoT/WorkingDir",
       "CommandLine": "xml-xslt-transform -i .\\MorseCodeSDK.xlsx.xml -i CreateMorseCodeSDKXml.xslt"
     }
   ]

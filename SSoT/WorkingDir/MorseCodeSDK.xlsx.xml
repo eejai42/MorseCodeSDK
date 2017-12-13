@@ -20,12 +20,25 @@
     <Description>short mark or dot (▄▄▄▄)</Description>
     <RelativeLength>1</RelativeLength>
     <Symbol>.</Symbol>
+    <DisplayText>.</DisplayText>
   </Signal>
   <Signal>
     <Name>Dash</Name>
     <Description>longer mark or dash (▄▄▄▄▄)</Description>
     <RelativeLength>2</RelativeLength>
     <Symbol>-</Symbol>
+    <DisplayText>-</DisplayText>
+  </Signal>
+  <Signal>
+    <Name>LongDash</Name>
+    <Description>\</Description>
+  </Signal>
+  <Signal>
+    <Name>ExtraLongDash</Name>
+    <Description>even longer dash (▄▄▄▄▄▄▄▄▄▄▄▄▄▄, the numeral 0)</Description>
+    <RelativeLength>5</RelativeLength>
+    <Symbol>_</Symbol>
+    <DisplayText>---</DisplayText>
   </Signal>
   <Signal>
     <Name>ICG</Name>
@@ -40,32 +53,22 @@
     <Symbol>X</Symbol>
   </Signal>
   <Signal>
-    <Name>Short</Name>
+    <Name>ShortGap</Name>
     <Description>short gap (between letters)</Description>
     <RelativeLength>2</RelativeLength>
     <Symbol>l</Symbol>
   </Signal>
   <Signal>
-    <Name>Medium</Name>
+    <Name>MediumGap</Name>
     <Description>medium gap (between words)</Description>
     <RelativeLength>3</RelativeLength>
     <Symbol>w</Symbol>
   </Signal>
   <Signal>
-    <Name>Long</Name>
+    <Name>LongGap</Name>
     <Description>long gap (between sentences)</Description>
     <RelativeLength>4</RelativeLength>
     <Symbol>s</Symbol>
-  </Signal>
-  <Signal>
-    <Name>LongDash</Name>
-    <Description>\</Description>
-  </Signal>
-  <Signal>
-    <Name>ExtraLongDash</Name>
-    <Description>even longer dash (▄▄▄▄▄▄▄▄▄▄▄▄▄▄, the numeral 0)</Description>
-    <RelativeLength>5</RelativeLength>
-    <Symbol>_</Symbol>
   </Signal>
 </Signals><Characters>
   <Character>

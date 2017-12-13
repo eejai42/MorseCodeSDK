@@ -17,19 +17,19 @@
             <FileSetFiles>
                 <FileSetFile>
                     <RelativePath>
-                        <xsl:text>MorseCodeSDK.xml</xsl:text>
+                        <xsl:text>../MorseCodeSDK.xml</xsl:text>
                     </RelativePath>
                     <xsl:element name="FileContents" xml:space="preserve"><MorseCodeSDK>
     <Variants>
         <xsl:for-each select="//Variant">
             <xsl:variable name="variant" select="." />
             <Variant>
-            <xsl:copy-of select="*"/>
+            <xsl:apply-templates select="*"/>
             <Characters>
                 <xsl:for-each select="//Character">
                     <xsl:variable name="variant-signal-codes" select="*[name() = $variant/Name]" />
                     <Character>
-                        <xsl:copy-of select="Name"/>
+                        <xsl:apply-templates select="Name"/>
                         <SignalCodes><xsl:value-of select="$variant-signal-codes" /></SignalCodes>
                         <Signals>
                             <xsl:call-template name="parse-variant-signal-codes">
@@ -61,7 +61,13 @@
         </xsl:if>
     </xsl:template>
 
-    <xsl:template match="Description">
-        <Description>&lt;![CDATA[<xsl:copy-of select="."/>]]&gt;</Description>
+    <xsl:template match="text()">
+    <xsl:variable name="amp">&amp;</xsl:variable>
+        <xsl:choose>
+            <xsl:when test="string-length(substring-before(., $amp)) > 0">&lt;![CDATA[<xsl:copy-of select="."/>]]&gt;</xsl:when>
+            <xsl:when test="string-length(substring-after(., $amp)) > 0">&lt;![CDATA[<xsl:copy-of select="."/>]]&gt;</xsl:when>
+            <xsl:when test="normalize-space(.) = $amp">&lt;![CDATA[<xsl:copy-of select="."/>]]&gt;</xsl:when>
+            <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 </xsl:stylesheet>
