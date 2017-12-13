@@ -9,11 +9,6 @@
     <Description>American or Railroad Morsecode was designed b y morse</Description>
     <Creator>Morse</Creator>
   </Variant>
-  <Variant>
-    <Name>Continental</Name>
-    <Description>The Gerke code was adopted as a standard for transmission over cables by the Austro-German Telegraph Union, and this was called Continental Code</Description>
-    <Creator>Gerke</Creator>
-  </Variant>
 </Variants><Signals>
   <Signal>
     <Name>Dot</Name>
