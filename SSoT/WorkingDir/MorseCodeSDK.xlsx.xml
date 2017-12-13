@@ -21,6 +21,7 @@
     <RelativeLength>1</RelativeLength>
     <Symbol>.</Symbol>
     <DisplayText>.</DisplayText>
+    <Binary>1</Binary>
   </Signal>
   <Signal>
     <Name>Dash</Name>
@@ -28,6 +29,7 @@
     <RelativeLength>2</RelativeLength>
     <Symbol>-</Symbol>
     <DisplayText>-</DisplayText>
+    <Binary>1</Binary>
   </Signal>
   <Signal>
     <Name>LongDash</Name>
@@ -39,36 +41,42 @@
     <RelativeLength>5</RelativeLength>
     <Symbol>_</Symbol>
     <DisplayText>---</DisplayText>
+    <Binary>1</Binary>
   </Signal>
   <Signal>
     <Name>ICG</Name>
     <Description>intra-character gap (standard gap between the dots and dashes in a character)</Description>
     <RelativeLength>1</RelativeLength>
     <Symbol>x</Symbol>
+    <Binary>0</Binary>
   </Signal>
   <Signal>
     <Name>LongICG</Name>
     <Description>long intra-character gap (longer internal gap used in C, O, R, Y, Z and &amp;)</Description>
     <RelativeLength>2</RelativeLength>
     <Symbol>X</Symbol>
+    <Binary>0</Binary>
   </Signal>
   <Signal>
     <Name>ShortGap</Name>
     <Description>short gap (between letters)</Description>
     <RelativeLength>2</RelativeLength>
     <Symbol>l</Symbol>
+    <Binary>0</Binary>
   </Signal>
   <Signal>
     <Name>MediumGap</Name>
     <Description>medium gap (between words)</Description>
     <RelativeLength>3</RelativeLength>
     <Symbol>w</Symbol>
+    <Binary>0</Binary>
   </Signal>
   <Signal>
     <Name>LongGap</Name>
     <Description>long gap (between sentences)</Description>
     <RelativeLength>4</RelativeLength>
     <Symbol>s</Symbol>
+    <Binary>0</Binary>
   </Signal>
 </Signals><Characters>
   <Character>
@@ -121,11 +129,13 @@
   </Character>
   <Character>
     <Name>8</Name>
+    <American>-x.x.x.x.</American>
     <Continental>-x-x-x.x.</Continental>
     <International>-x-x-x.x.</International>
   </Character>
   <Character>
     <Name>9</Name>
+    <American>-x.x.x-</American>
     <Continental>-x-x-x-x.</Continental>
     <International>-x-x-x-x.</International>
   </Character>
