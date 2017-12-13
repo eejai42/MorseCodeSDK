@@ -44,7 +44,8 @@ Character <xsl:for-each select="//Variant"> | <xsl:value-of select="Name" /></xs
             <xsl:value-of select="Name"/>
             <xsl:text>](https://eejai42.github.io/MorseCodeSDK/images/</xsl:text>
             <xsl:value-of select="Name"/>
-            <xsl:text>.png)</xsl:text>
+            <xsl:text>.png) </xsl:text>
+            <xsl:text>[logo]</xsl:text>
         </xsl:for-each>
         <xsl:text>`</xsl:text>
     </xsl:template>
