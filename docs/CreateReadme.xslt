@@ -34,10 +34,11 @@ Character <xsl:for-each select="//Variant"> | <xsl:value-of select="Name" /></xs
     <xsl:template name="print-char" xml:space="default">
         <xsl:param name="char" />
         <xsl:param name="variant" />
+        <xsl:text>`</xsl:text>
         <xsl:for-each select="$variant//Character[Name = $char/Name]//Signal">
-            <xsl:text>`</xsl:text>
             <xsl:value-of select="DisplayText"/>
-            <xsl:text>`</xsl:text>
+            <img src="https://eejai42.github.io/MorseCodeSDK/images/Dash.png" />
         </xsl:for-each>
+        <xsl:text>`</xsl:text>
     </xsl:template>
 </xsl:stylesheet>
